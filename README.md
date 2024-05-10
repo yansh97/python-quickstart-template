@@ -7,3 +7,9 @@
 ```bash
 isort . && black .
 ```
+
+查看命令行帮助：
+
+```bash
+python -m cli --help
+```
