@@ -13,3 +13,15 @@ isort . && black .
 ```bash
 python -m cli --help
 ```
+
+启动服务器（开发模式）：
+
+```bash
+fastapi dev server.py
+```
+
+启动服务器（生产模式）：
+
+```bash
+fastapi run server.py
+```
