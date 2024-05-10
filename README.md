@@ -8,10 +8,10 @@
 isort . && black .
 ```
 
-查看命令行帮助：
+启动命令行帮助：
 
 ```bash
-python -m cli --help
+typer cli.py run --help
 ```
 
 启动服务器（开发模式）：
